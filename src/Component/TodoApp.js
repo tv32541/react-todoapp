@@ -33,7 +33,7 @@ export default class TodoApp extends PureComponent {
   }; */
 
   removeItems = (key) => () => {
-    console.log(key);
+   
    this.setState({
       items: this.state.items.filter((data, index) => index !== key),
     });
